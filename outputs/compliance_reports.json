@@ -1,0 +1,311 @@
+{
+  "US": {
+    "jurisdiction": "US",
+    "regime": "ECOA / Regulation B-style fair lending review",
+    "rule_version": "US-2026-05-demo",
+    "last_reviewed": "2026-05-22",
+    "regulatory_philosophy": "Outcome fairness, adverse action explanation, and post-hoc review",
+    "sources": [
+      {
+        "rule_id": "US-CFPB-ADVERSE-ACTION",
+        "source_name": "CFPB guidance on AI-driven credit decisions and adverse action notices",
+        "url": "https://www.consumerfinance.gov/about-us/newsroom/cfpb-issues-guidance-on-credit-denials-by-lenders-using-artificial-intelligence/",
+        "operational_test": "Rejected applicants must receive specific and meaningful adverse action reasons."
+      },
+      {
+        "rule_id": "US-REG-B",
+        "source_name": "ECOA / Regulation B fair lending logic",
+        "url": "https://www.consumerfinance.gov/",
+        "operational_test": "Check whether approval outcomes differ materially across protected or proxy groups."
+      }
+    ],
+    "overall_status": "No major issues detected",
+    "findings": [],
+    "group_results": {
+      "nationality": {
+        "disparity_ratio": 0.898,
+        "approval_rates": [
+          {
+            "nationality": "Germany",
+            "approval_rate": 0.727,
+            "n": 154
+          },
+          {
+            "nationality": "UK",
+            "approval_rate": 0.75,
+            "n": 148
+          },
+          {
+            "nationality": "US",
+            "approval_rate": 0.766,
+            "n": 483
+          },
+          {
+            "nationality": "India",
+            "approval_rate": 0.767,
+            "n": 193
+          },
+          {
+            "nationality": "Canada",
+            "approval_rate": 0.768,
+            "n": 99
+          },
+          {
+            "nationality": "France",
+            "approval_rate": 0.775,
+            "n": 120
+          },
+          {
+            "nationality": "China",
+            "approval_rate": 0.78,
+            "n": 182
+          },
+          {
+            "nationality": "Singapore",
+            "approval_rate": 0.81,
+            "n": 121
+          }
+        ]
+      },
+      "ethnicity": {
+        "disparity_ratio": 0.858,
+        "approval_rates": [
+          {
+            "ethnicity": "Group_D",
+            "approval_rate": 0.671,
+            "n": 152
+          },
+          {
+            "ethnicity": "Group_C",
+            "approval_rate": 0.764,
+            "n": 229
+          },
+          {
+            "ethnicity": "Group_A",
+            "approval_rate": 0.779,
+            "n": 756
+          },
+          {
+            "ethnicity": "Group_B",
+            "approval_rate": 0.782,
+            "n": 363
+          }
+        ]
+      },
+      "religion": {
+        "disparity_ratio": 0.988,
+        "approval_rates": [
+          {
+            "religion": "Religion_C",
+            "approval_rate": 0.761,
+            "n": 293
+          },
+          {
+            "religion": "Religion_B",
+            "approval_rate": 0.766,
+            "n": 372
+          },
+          {
+            "religion": "None/Not disclosed",
+            "approval_rate": 0.767,
+            "n": 369
+          },
+          {
+            "religion": "Religion_A",
+            "approval_rate": 0.77,
+            "n": 466
+          }
+        ]
+      },
+      "marital_status": {
+        "disparity_ratio": 0.916,
+        "approval_rates": [
+          {
+            "marital_status": "widowed",
+            "approval_rate": 0.737,
+            "n": 38
+          },
+          {
+            "marital_status": "single",
+            "approval_rate": 0.761,
+            "n": 714
+          },
+          {
+            "marital_status": "married",
+            "approval_rate": 0.767,
+            "n": 615
+          },
+          {
+            "marital_status": "divorced",
+            "approval_rate": 0.805,
+            "n": 133
+          }
+        ]
+      }
+    }
+  },
+  "UK": {
+    "jurisdiction": "UK",
+    "regime": "FCA Consumer Duty and responsible lending outcome monitoring",
+    "rule_version": "UK-2026-05-demo",
+    "last_reviewed": "2026-05-22",
+    "regulatory_philosophy": "Consumer outcomes, responsible lending, explainability, and board-level accountability",
+    "sources": [
+      {
+        "rule_id": "UK-FCA-CONSUMER-DUTY",
+        "source_name": "FCA Consumer Duty outcome monitoring",
+        "url": "https://www.fca.org.uk/news/blogs/year-2-consumer-duty-board-reports-progress-and-what-comes-next",
+        "operational_test": "Monitor whether credit decisions create poor outcomes for customer groups."
+      },
+      {
+        "rule_id": "UK-FCA-IMPLEMENTATION-PLANS",
+        "source_name": "FCA Consumer Duty implementation planning",
+        "url": "https://www.fca.org.uk/publications/multi-firm-reviews/consumer-duty-implementation-plans",
+        "operational_test": "Require evidence that governance, monitoring, and remediation are embedded in the product lifecycle."
+      }
+    ],
+    "overall_status": "Review Required",
+    "findings": [
+      {
+        "severity": "Medium",
+        "rule_id": "DISPARITY-MONITORING",
+        "finding": "Approval disparity detected for nationality",
+        "details": "Disparity ratio 0.898 is below UK threshold 0.90."
+      },
+      {
+        "severity": "Medium",
+        "rule_id": "DISPARITY-MONITORING",
+        "finding": "Approval disparity detected for ethnicity",
+        "details": "Disparity ratio 0.858 is below UK threshold 0.90."
+      },
+      {
+        "severity": "Info",
+        "rule_id": "UK-CONSUMER-DUTY-OUTCOMES",
+        "finding": "Consumer Duty outcome monitoring",
+        "details": "The UK configuration expects evidence that credit decisions are monitored for customer outcomes and remediated when needed."
+      }
+    ],
+    "group_results": {
+      "nationality": {
+        "disparity_ratio": 0.898,
+        "approval_rates": [
+          {
+            "nationality": "Germany",
+            "approval_rate": 0.727,
+            "n": 154
+          },
+          {
+            "nationality": "UK",
+            "approval_rate": 0.75,
+            "n": 148
+          },
+          {
+            "nationality": "US",
+            "approval_rate": 0.766,
+            "n": 483
+          },
+          {
+            "nationality": "India",
+            "approval_rate": 0.767,
+            "n": 193
+          },
+          {
+            "nationality": "Canada",
+            "approval_rate": 0.768,
+            "n": 99
+          },
+          {
+            "nationality": "France",
+            "approval_rate": 0.775,
+            "n": 120
+          },
+          {
+            "nationality": "China",
+            "approval_rate": 0.78,
+            "n": 182
+          },
+          {
+            "nationality": "Singapore",
+            "approval_rate": 0.81,
+            "n": 121
+          }
+        ]
+      },
+      "ethnicity": {
+        "disparity_ratio": 0.858,
+        "approval_rates": [
+          {
+            "ethnicity": "Group_D",
+            "approval_rate": 0.671,
+            "n": 152
+          },
+          {
+            "ethnicity": "Group_C",
+            "approval_rate": 0.764,
+            "n": 229
+          },
+          {
+            "ethnicity": "Group_A",
+            "approval_rate": 0.779,
+            "n": 756
+          },
+          {
+            "ethnicity": "Group_B",
+            "approval_rate": 0.782,
+            "n": 363
+          }
+        ]
+      },
+      "religion": {
+        "disparity_ratio": 0.988,
+        "approval_rates": [
+          {
+            "religion": "Religion_C",
+            "approval_rate": 0.761,
+            "n": 293
+          },
+          {
+            "religion": "Religion_B",
+            "approval_rate": 0.766,
+            "n": 372
+          },
+          {
+            "religion": "None/Not disclosed",
+            "approval_rate": 0.767,
+            "n": 369
+          },
+          {
+            "religion": "Religion_A",
+            "approval_rate": 0.77,
+            "n": 466
+          }
+        ]
+      },
+      "marital_status": {
+        "disparity_ratio": 0.916,
+        "approval_rates": [
+          {
+            "marital_status": "widowed",
+            "approval_rate": 0.737,
+            "n": 38
+          },
+          {
+            "marital_status": "single",
+            "approval_rate": 0.761,
+            "n": 714
+          },
+          {
+            "marital_status": "married",
+            "approval_rate": 0.767,
+            "n": 615
+          },
+          {
+            "marital_status": "divorced",
+            "approval_rate": 0.805,
+            "n": 133
+          }
+        ]
+      }
+    }
+  }
+}

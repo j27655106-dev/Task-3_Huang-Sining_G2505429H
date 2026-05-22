@@ -1,0 +1,16 @@
+applicant_id,reason_1,reason_2,reason_3
+1,Credit score below internal benchmark,,
+5,Overall predicted default risk exceeds approval threshold,,
+8,Income below affordability benchmark,Employment status increases repayment uncertainty,
+10,Credit score below internal benchmark,Income below affordability benchmark,Employment status increases repayment uncertainty
+11,Credit score below internal benchmark,Requested loan amount is high relative to profile,
+14,Income below affordability benchmark,Requested loan amount is high relative to profile,
+21,Credit score below internal benchmark,Debt-to-income ratio is high,Income below affordability benchmark
+22,Credit score below internal benchmark,Income below affordability benchmark,Employment status increases repayment uncertainty
+26,Credit score below internal benchmark,Income below affordability benchmark,Employment status increases repayment uncertainty
+29,Credit score below internal benchmark,Income below affordability benchmark,Employment status increases repayment uncertainty
+35,Credit score below internal benchmark,Income below affordability benchmark,Employment status increases repayment uncertainty
+36,Income below affordability benchmark,Employment status increases repayment uncertainty,Requested loan amount is high relative to profile
+37,Credit score below internal benchmark,Income below affordability benchmark,Employment status increases repayment uncertainty
+38,Credit score below internal benchmark,,
+41,Credit score below internal benchmark,Requested loan amount is high relative to profile,
